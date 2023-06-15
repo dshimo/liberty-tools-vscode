@@ -41,7 +41,7 @@ This guide provides detailed instructions on how to configure your Liberty proje
 Liberty Tools for Visual Studio Code requires a Java with a minimum version of 17 to ensure that the Liberty Config Language Server starts properly. A toast message will alert you if the Liberty Config language server fails to run.
 
 <!-- ![Java Version Outdated Toast](/docs/screenshots/java_17_toast_alert.png) -->
-<img src="/docs/screenshots/java_17_toast_alert.png" width="70%" height="70%">
+<img src="/docs/screenshots/java_17_toast_alert.png" width="50%" height="50%">
 
 To resolve this conflict, define `java.jdt.ls.java.home` and `xml.java.home` in your Visual Studio Code [settings.json](https://code.visualstudio.com/docs/getstarted/settings) to point Liberty Tools to your Java 17 or newer runtime.
 
